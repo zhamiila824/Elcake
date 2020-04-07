@@ -1,19 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
     'use strict';
 
-    var sum = document.getElementById("total_sum");
+    // var sum = document.getElementById("total_sum");
 
-    $("tr").click(function(){
-        $(this).toggleClass("selected");
-        var price = $(this).find("span").text();
-        if($(this).hasClass("selected")){
-            var new_sum = parseInt($(sum).text()) + parseInt(price);
-            $(sum).html(new_sum);
-        } else{
-            var new_sum = parseInt($(sum).text()) - parseInt(price);
-            $(sum).html(new_sum);
-        }
-    });
+    // $("tr").click(function(){
+    //     $(this).toggleClass("selected");
+    //     var price = $(this).find("span").text();
+    //     if($(this).hasClass("selected")){
+    //         var new_sum = parseInt($(sum).text()) + parseInt(price);
+    //         $(sum).html(new_sum);
+    //     } else{
+    //         var new_sum = parseInt($(sum).text()) - parseInt(price);
+    //         $(sum).html(new_sum);
+    //     }
+    // });
 
     // function addRowHandlers() {
     //     var table = document.getElementById("table");

@@ -46,8 +46,14 @@ a.btn:hover{
     padding: 30px;
     margin-bottom: 20px;
   }
+  .card-img{
+    width: 270px;
+    height: 270px;
+}
   .card-img-top{
       width: 100%;
+      height: 100%;
+      object-fit: cover;
   }
   @media(max-width:1200px) {
     .container{
